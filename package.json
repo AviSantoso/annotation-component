@@ -1,0 +1,50 @@
+{
+  "name": "annotation-component",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [],
+  "main": "src/index.tsx",
+  "dependencies": {
+    "@chakra-ui/icons": "1.0.14",
+    "@chakra-ui/react": "1.6.5",
+    "@emotion/react": "11.4.0",
+    "@emotion/styled": "11.3.0",
+    "@types/d3": "7.1.0",
+    "@types/html2canvas": "1.0.0",
+    "@types/react-color": "3.0.6",
+    "@types/react-pdf": "5.0.9",
+    "@types/uuid": "8.3.4",
+    "@use-gesture/react": "10.2.4",
+    "d3": "7.3.0",
+    "framer-motion": "4.1.17",
+    "html2canvas": "1.4.1",
+    "lodash": "4.17.21",
+    "mobx": "6.3.13",
+    "mobx-react-lite": "3.2.3",
+    "react": "17.0.0",
+    "react-color": "2.19.3",
+    "react-dom": "17.0.0",
+    "react-icons": "4.3.1",
+    "react-pdf": "5.7.1",
+    "react-scripts": "3.3.0",
+    "slugify": "1.6.5",
+    "uuid": "8.3.2"
+  },
+  "devDependencies": {
+    "@types/react": "16.9.19",
+    "@types/react-dom": "16.9.5",
+    "typescript": "3.7.5"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
