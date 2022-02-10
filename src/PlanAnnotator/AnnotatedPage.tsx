@@ -6,8 +6,8 @@ import { observer } from "mobx-react-lite";
 import { autorun } from "mobx";
 import { Page } from "react-pdf";
 
-import Dimension from "./data/Dimension";
-import PageData from "./data/PageData";
+import Dimension from "../data/Dimension";
+import PageData from "../data/PageData";
 
 type AnnotatedPageProps = BoxProps & {
   pageNum: number;
