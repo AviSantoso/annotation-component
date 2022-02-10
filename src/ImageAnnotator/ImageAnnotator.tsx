@@ -3,15 +3,15 @@ import { Box } from "@chakra-ui/react";
 import { useGesture } from "@use-gesture/react";
 import { observer, useLocalObservable } from "mobx-react-lite";
 
-import ImageAnnotatorState from "./state/ImageAnnotatorState";
-import TransformState from "./state/TransformState";
-import SelectEntities from "./select/SelectEntities";
-import EditEntity from "./edit/EditEntity";
-import ImageControls from "./controls/ImageControls";
-import TransformControls from "./controls/TransformControls";
+import ImageAnnotatorState from "../state/ImageAnnotatorState";
+import TransformState from "../state/TransformState";
+import SelectEntities from "../select/SelectEntities";
+import EditEntity from "../edit/EditEntity";
+import ImageControls from "../controls/ImageControls";
+import TransformControls from "../controls/TransformControls";
+import PinData from "../data/PinData";
+import RegionData from "../data/RegionData";
 import AnnotatedImage from "./AnnotatedImage";
-import PinData from "./data/PinData";
-import RegionData from "./data/RegionData";
 
 interface ImageAnnotatorProps {
   src: string;

@@ -5,9 +5,9 @@ import { FaCrosshairs, FaMapMarkerAlt } from "react-icons/fa";
 import { observer } from "mobx-react-lite";
 import { autorun } from "mobx";
 
-import PinData from "./data/PinData";
-import RegionData from "./data/RegionData";
-import Dimension from "./data/Dimension";
+import PinData from "../data/PinData";
+import RegionData from "../data/RegionData";
+import Dimension from "../data/Dimension";
 
 type AnnotatedImageProps = BoxProps & {
   src: string;
