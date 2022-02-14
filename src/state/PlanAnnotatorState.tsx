@@ -5,22 +5,23 @@ import PlanAnnotatorPageState from './PlanAnnotatorPageState'
 
 class PlanAnnotatorState {
     private _selectedPage: PageData | null;
-    public pageState: PlanAnnotatorPageState | null;
+    public _pageState: PlanAnnotatorPageState | null;
     public iconSize: number;
 
     constructor(public pages: PageData[]) {
+        this._pageState = null;
         this._selectedPage = null;
         this.iconSize = 4;
         makeAutoObservable(this, {}, { autoBind: true });
     }
 
-    public get selectedPage(): PageData | null {
+    public get pageState(): PageData | null {
         return this._selectedPage;
     }
 
     public setSelectedPage(data: PageData | null) {
         this._selectedPage = data;
-        this.pageState = data ? new PlanAnnotatorPageState(data) : null;
+        this._pageState = data ? new PlanAnnotatorPageState(data) : null;
     }
 
     resetIconSize() {
